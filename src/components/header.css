@@ -1,26 +1,47 @@
 .navbar {
-  min-height: 100px;
+  min-height: 120px;
+}
+
+.navbar-nav {
+  padding-right: 200px;
 }
 
 .navbar-dark .navbar-brand {
-  font-size: 30px;
+  font-size: 50px;
   margin-left: 20px;
-  color: #2c81af;
+  color: #3bafed;
   text-shadow: 2px 2px 4px blue;
   font-family: "Balsamiq Sans";
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar-nav {
+    padding-right: 100px;
+  }
+
+  .navbar-dark .navbar-brand {
+    padding-left: 100px;
+  }
+}
+
+.navbar-dark .navbar-brand:hover {
+  color: #3bafed;
 }
 
 .linkFormat {
-  font-size: 30px;
-  color: blue;
+  font-family: "Belleza";
+  font-size: 50px;
+  color: #2c81af;
   margin-left: 20px;
   margin-right: 20px;
+  justify-content: space-between;
 }
 
 .linkFormat:hover {
-  color: blue;
+  color: #3bafed;
   text-decoration: none;
-  opacity: 0.8;
 }
 
 .icon {

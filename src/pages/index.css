@@ -1,0 +1,10 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionContainer {
+  display: inline-block;
+  padding: 20px;
+}

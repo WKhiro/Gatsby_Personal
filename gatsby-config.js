@@ -20,16 +20,22 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Belleza`,
-          },
-          {
-            family: `Balsamiq Sans`,
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: "Belleza",
+            },
+            {
+              family: "Balsamiq Sans",
+            },
+          ],
+        },
+        formats: ["woff2", "woff"],
+        useMinify: true,
+        usePreload: true,
+        usePreconnect: false,
       },
     },
   ],

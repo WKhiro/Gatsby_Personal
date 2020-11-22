@@ -6,10 +6,10 @@ import "./header.css"
 import cat from "../images/favicon.png"
 
 const Header = () => (
-  <Navbar expand="xl" variant="dark">
+  <Navbar expand="lg" variant="dark">
     <Navbar.Brand as={Link} to="/">
       <img className="icon" src={cat} alt="" />
-      WKHiro
+      WKhiro
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -22,6 +22,11 @@ const Header = () => (
         <Nav.Item>
           <Link to="/projects" className="linkFormat">
             Projects
+          </Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Link to="/some" className="linkFormat">
+            Some
           </Link>
         </Nav.Item>
       </Nav>

@@ -2,7 +2,7 @@ import React from "react"
 import { Particles } from "react-particles-js"
 import "./background.css"
 
-export const GradientBackground = () => (
+const GradientBackground = () => (
   <div className="gradientContainer">
     {/* Value_area: smaller = denser clusters */}
     <Particles
@@ -32,3 +32,5 @@ export const GradientBackground = () => (
     />
   </div>
 )
+
+export default GradientBackground

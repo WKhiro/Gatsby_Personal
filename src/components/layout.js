@@ -1,12 +1,12 @@
 import React from "react"
-import { GradientBackground } from "./background"
+import Xd from "./background"
 import Header from "./header"
 import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <GradientBackground />
+      <Xd />
       <Header />
       <div className="base">
         {children}
