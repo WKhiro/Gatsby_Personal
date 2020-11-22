@@ -1,0 +1,28 @@
+.navbar {
+  min-height: 100px;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 30px;
+  margin-left: 20px;
+  color: #2c81af;
+  text-shadow: 2px 2px 4px blue;
+  font-family: "Balsamiq Sans";
+}
+
+.linkFormat {
+  font-size: 30px;
+  color: blue;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.linkFormat:hover {
+  color: blue;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.icon {
+  margin-right: 10px;
+}
